@@ -300,7 +300,7 @@ table {
 html {
   font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: url('https://raw.github.com/inkgab/rksbhadohi/master/app/assets/images/image.jpeg') repeat center center;
+  /*background: url('image.jpeg') repeat center center;*/
   
 
     /* Ensure the html element always takes up the full height of the browser window */
