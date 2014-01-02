@@ -7,7 +7,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body background="image.jpeg">
 <div class="container">
 <!-- Navbar
     ================================================== -->
@@ -49,9 +49,9 @@
 </header>
 <!-- /Navbar
     ================================================== --> 
-<div class="container">
+
 <%= yield %>
-</div>
+
 <div id="footer">
 <div class="container wrap">
 <p style="color:#ffffff; text-align:center;"><small>&copy; Rupesh kumar &amp; sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprise Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Thank you for visiting "%><small> </p> 
