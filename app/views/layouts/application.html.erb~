@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @title %>|Rupesh kumar &amp; sons.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+<!-- Navbar
+    ================================================== -->
+
+<div class="masthead">
+        <h3 class="muted"><a href="#"><%= image_tag("logo.png",:alt => "Rupesh kumar &amp; sons.") %></a><a href="#" class="pull-right"><%= image_tag("logo_ad.png",:alt => "Rupesh kumar &amp; sons.") %></a></h3>
+</div>
+     
+<header class="navbar navbar-inverse " role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand">Home</a>
+    </div>
+    <nav class="collapse navbar-collapse"style="align:center;" role="navigation">
+      <ul class="nav navbar-nav">
+        <li class="">
+          <a href="">About Us</a>
+        </li>
+        <li>
+          <a href="">Collections</a>
+        </li>
+        <li>
+          <a href="">Events</a>
+        </li>
+
+        <li>
+          <a href="">Contact Us</a>
+        </li>
+      </ul>
+      
+    </nav>
+  </div>
+</header>
+<!-- /Navbar
+    ================================================== --> 
+<div class="container">
+<%= yield %>
+</div>
+<div id="footer">
+<div class="container wrap">
+<p style="color:#ffffff; text-align:center;"><small>&copy; Rupesh kumar &amp; sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprise Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Thank you for visiting "%><small> </p> 
+</div>
+</div>
+</div>
+
+</body>
+</html>
