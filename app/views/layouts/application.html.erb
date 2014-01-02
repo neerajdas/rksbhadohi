@@ -12,11 +12,12 @@
 <!-- Navbar
     ================================================== -->
 
+
 <div class="masthead">
-        <h3 class="muted"><a href="#"><%= image_tag("logo.png",:alt => "Rupesh kumar &amp; sons.") %></a><a href="#" class="pull-right"><%= image_tag("logo_ad.jpg",:alt => "Rupesh kumar &amp; sons.") %></a></h3>
-</div>
+        <h2 class="muted"><a href="#"><%= image_tag("logo.png",:size => "115x60",:alt => "Rupesh kumar &amp; sons.") %></a><a href="#" class="pull-right"><%= image_tag("123.jpg",:size => "115x60",:alt => "Rupesh kumar &amp; sons.") %></a></h2>
+
      
-<header class="navbar navbar-inverse " role="banner">
+<header class="navbar navbar-inverse " role="banner" style="padding-top:-10px;margin-top:30px;">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -25,22 +26,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">Home</a>
+      <a href="#" class="navbar-brand"><h4>Home</h4></a>
     </div>
     <nav class="collapse navbar-collapse"style="align:center;" role="navigation">
       <ul class="nav navbar-nav">
         <li class="">
-          <a href="">About Us</a>
+          <a href=""><h4>About Us</h4></a>
         </li>
         <li>
-          <a href="">Collections</a>
+          <a href=""><h4>Collections</h4></a>
         </li>
         <li>
-          <a href="">Events</a>
+          <a href=""><h4>Events</h4></a>
         </li>
 
         <li>
-          <a href="">Contact Us</a>
+          <a href=""><h4>Contact Us</h4></a>
         </li>
       </ul>
       
@@ -48,16 +49,20 @@
   </div>
 </header>
 <!-- /Navbar
-    ================================================== --> 
+    ================================================== -->
 
+<div class="jumbotron panel">
+     
 <%= yield %>
+</div>
 
 <div id="footer">
-<div class="container wrap">
-<p style="color:#ffffff; text-align:center;"><small>&copy; Rupesh kumar &amp; sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprise Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Thank you for visiting "%><small> </p> 
-</div>
+<div class="wrap">
+<p style="color:#ffffff; font-size:14px;" class="text-center">&copy; Rupesh kumar &amp; sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprise Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Thank you for visiting "%></p> 
 </div>
 </div>
 
+
+</div>
 </body>
 </html>
