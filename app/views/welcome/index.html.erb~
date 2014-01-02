@@ -1,4 +1,6 @@
-<div class="jumbotron">
+<% @title="Home " %>
+
+<div class="jumbotron panel">
      
        
 </div>

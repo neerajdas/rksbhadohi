@@ -7,7 +7,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body background="https://raw.github.com/inkgab/rksbhadohi/master/app/assets/images/image.jpeg"style="repeat center center;">
+<body>
 <div class="container">
 <!-- Navbar
     ================================================== -->
