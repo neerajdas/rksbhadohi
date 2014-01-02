@@ -7236,7 +7236,7 @@ body {
 /* Customize container */
 @media (min-width: 900px) {
   .container {
-    max-width: 920px;
+    max-width: 800px;
   }
 }
 .container-narrow > hr {
