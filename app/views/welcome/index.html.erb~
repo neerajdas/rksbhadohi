@@ -1,22 +1,4 @@
 <% @title="Home " %>
-<!----------------------------slider-------------------->
-<div id='content'>
-<div class='slider-wrapper theme-default'>
-<div class='ribbon'></div>
-<div id='ramblingSlider'>
-<img alt="" src="/assets/slider/toy_story.jpg" />
-<a href="http://www.ramblinglabs.com"><img alt="" src="/assets/logo.png" title="This is an example of a caption" />
-</a><img alt="" src="/assets/slider/walle.jpg" />
-<img alt="" src="/assets/slider/nemo.jpg" title="#html-caption" />
-</div>
-<div class='rambling-html-caption' id='html-caption'>
-<strong>This</strong>
-is an example of a
-<em>HTML</em>
-caption with
-<a href='#'>a link</a>
-.
-</div>
-</div>     
-
+<!--slider-->
+<!--/slider-->
 
