@@ -43,13 +43,13 @@
 </header>
 <!-- /Navbar-->
 <!--main body-->
-<div class="jumbotron panel">
+<div class="container">
 <%= yield %>
 </div>
 <!-- /main body-->
 <!--footer-->
 <div id="footer">
-<p style="color:#ffffff; font-size:14px;" class="text-center">&copy; Rupesh kumar &amp; sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprise Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Thank you for visiting "%></p> 
+<p style="color:#ffffff; font-size:14px;" class="text-center">&copy; Rupesh kumar &amp; sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprises Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Thank you for visiting "%></p> 
 </div>
 <!-- /footer-->
 </div>
