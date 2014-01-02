@@ -357,7 +357,7 @@ img {
 .img-responsive {
   display: block;
   height: auto;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .img-rounded {
@@ -7220,7 +7220,7 @@ body {
 /* Customize container */
 @media (min-width: 900px) {
   .container {
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 .container-narrow > hr {
