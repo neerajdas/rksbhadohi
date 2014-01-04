@@ -9,13 +9,12 @@
 </head>
 <body>
 <div class="container">
+<a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" target="_blank" class="pull-right" style="padding-top:23px;"><h6 class="text-left pull-left">Hall no.15,<p class="text-left">Stand C32/3</p></h6><%= image_tag("123.png",:size => "90x60",:alt => "Domotex Fair")%>
+</a>
 <!-- Navbar-->
 <div class="masthead">
-<h2 class="muted"><a href="http://rksbhadohi.herokuapp.com/"><%= image_tag("logo.png",:size => "115x60",:alt => "Rupesh kumar &amp; Sons.") %></a>
-<a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" target="_blank" class="container-ad pull-right"><h5 class="pull-left" >Hall no.15,<p class="text-left">Stand C32/3</p></h5><%= image_tag("123.png",:size => "90x60",:alt => "Domotex Fair")%>
-</a></h2>
+<h2 class="muted"><a href="http://rksbhadohi.herokuapp.com/"><%= image_tag("rksw1.png",:size => "115x60",:alt => "Rupesh kumar &amp; Sons.") %><h6 class="text-bottom"style="padding-left:20px">Rupesh Kumar & Sons</h6></a></h2>
 </div>
-
 <header class="navbar navbar-inverse" role="banner" style="padding-top:-15px;margin-top:30px">
 <div class="container">
 <div class="navbar-header">

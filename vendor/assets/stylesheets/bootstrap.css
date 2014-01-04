@@ -7236,7 +7236,7 @@ body {
 /* Customize container */
 @media (min-width: 900px) {
   .container {
-    max-width: 890px;
+    max-width: 880px;
   }
 }
 
