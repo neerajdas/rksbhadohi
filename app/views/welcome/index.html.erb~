@@ -7,49 +7,34 @@
 <div class="item active">
 <%= image_tag("1.jpg") %>
 <div class="carousel-caption">
-<h2 style="text-shadow:1px 7px 1px #000000;">TITLE 1</h2>
-<p style="text-shadow:1px 1px 2px rgba(10,10,10,1);background-color: rgba(32, 34, 33, 0.6);-moz-box-shadow:inset -2px 11px 9px #333133;-webkit-box-shadow:inset -2px 11px 9px #333133;box-shadow:inset -2px 11px 9px #333133;-moz-box-shadow: -2px 0px 7px #bdb7bd;-webkit-box-shadow: -2px 0px 7px #bdb7bd;box-shadow: -2px 0px 7px #bdb7bd;">
-Lorem ipsum dolor sit amet, vix sint wisi paulo eu. Vis ei scripserit referrentur? Aeque quaerendum ei eam. Id usu dicant tractatos?
-</p>
 </div>
 </div>
 <div class="item">
 <%= image_tag("2.jpg") %>
 <div class="carousel-caption">
-<h2 style="text-shadow:1px 7px 1px #000000;">TITLE 2</h2>
-<p style="text-shadow:1px 1px 2px rgba(10,10,10,1);background-color: rgba(32, 34, 33, 0.6);-moz-box-shadow:inset -2px 11px 9px #333133;-webkit-box-shadow:inset -2px 11px 9px #333133;box-shadow:inset -2px 11px 9px #333133;-moz-box-shadow: -2px 0px 7px #bdb7bd;-webkit-box-shadow: -2px 0px 7px #bdb7bd;box-shadow: -2px 0px 7px #bdb7bd;">
-Lorem ipsum dolor sit amet, mea brute munere iracundia ne? Erat praesent argumentum ea his. Eu dictas senserit qui, rebum graeco dicunt duo ex! Cetero sanctus assueverit ad est, autem vivendo sapientem no sea, qui purto elitr corpora ne! <a href="#"><i>Read more</i></a>
-</p>
 </div>
 </div>
 <div class="item">
 <%= image_tag("3.jpg") %>
 <div class="carousel-caption">
-<h2 style="text-shadow:1px 7px 1px #000000;">TITLE 3</h2>
-<p style="text-shadow:1px 1px 2px rgba(10,10,10,1);background-color: rgba(32, 34, 33, 0.6);-moz-box-shadow:inset -2px 11px 9px #333133;-webkit-box-shadow:inset -2px 11px 9px #333133;box-shadow:inset -2px 11px 9px #333133;-moz-box-shadow: -2px 0px 7px #bdb7bd;-webkit-box-shadow: -2px 0px 7px #bdb7bd;box-shadow: -2px 0px 7px #bdb7bd;">
-Magna diceret platonem nec ea, sea accusam quaestio te, augue pertinax mediocritatem ius ne. In modus inciderint cum.
-</p>
 </div>
 </div>
 <div class="item">
 <%= image_tag("4.jpg") %>
 <div class="carousel-caption">
-<h2 style="text-shadow:1px 7px 1px #000000;">TITLE 4</h2>
-<p>Sony's got a plan and it's sticking to it - while other makers pile software feature upon feature, the Japanese focus on their historical strengths, such as beautiful, durable design, photographic excellence and enviable display tech. That in short is what the Xperia Z1 is all about.</p>
 </div>
 </div>
 <div class="item">
 <%= image_tag("5.jpg") %>
 <div class="carousel-caption">
-<h3 style="text-shadow:1px 7px 1px #000000;">title5</h3>
-<p>Sony's got a plan and it's sticking to it - while other makers pile software feature upon feature, the Japanese focus on their historical strengths, such as beautiful, durable design, photographic excellence and enviable display tech. That in short is what the Xperia Z1 is all about.</p>
+
+
 </div>
 </div>
 <div class="item">
 <%= image_tag("6.jpg") %>
 <div class="carousel-caption">
-<h1 style="text-shadow:1px 7px 1px #000000;">title6</h1>
-<p>Sony's got a plan and it's sticking to it - while other makers pile software feature upon feature, the Japanese focus on their historical strengths, such as beautiful, durable design, photographic excellence and enviable display tech. That in short is what the Xperia Z1 is all about.</p>
+
 </div>
 </div>
 </div>

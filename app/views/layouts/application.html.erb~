@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><%= @title %>|Rupesh kumar &amp; sons.</title>
+<title><%= @title %>|Rupesh kumar &amp; Sons.</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
 <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -11,8 +11,12 @@
 <div class="container">
 <!-- Navbar-->
 <div class="masthead">
-<h2 class="muted"><a href="#"><%= image_tag("logo.png",:size => "115x60",:alt => "Rupesh kumar &amp; sons.") %></a><a href="#" class="pull-right"><%= image_tag("123.jpg",:size => "115x60",:alt => "Rupesh kumar &amp; sons.") %></a></h2>
-<header class="navbar navbar-inverse " role="banner" style="padding-top:-10px;margin-top:30px;">
+<h2 class="muted"><a href="#"><%= image_tag("logo.png",:size => "115x60",:alt => "Rupesh kumar &amp; Sons.") %></a>
+<a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" target="_blank" class="pull-right"><h5 class="pull-left" style="padding-right:2px;margin-top:1px;">Hall no.15    ,<br>Stand C32/3</h5><%= image_tag("123.jpg",:size => "115x60",:alt => "Domotex Fair")%>
+</a></h2>
+</div>
+
+<header class="navbar navbar-inverse" role="banner" style="padding-top:-10px;margin-top:30px">
 <div class="container">
 <div class="navbar-header">
 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,21 +25,30 @@
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a href="#" class="navbar-brand"><h4>Home</h4></a>
+<a href="http://0.0.0.0:3000/" class="navbar-brand"><h4>
+Home</h4></a>
 </div>
-<nav class="collapse navbar-collapse"style="align:center;" role="navigation">
+<nav class="collapse navbar-collapse" style="align:center;" role="navigation">
 <ul class="nav navbar-nav">
-<li class="">
-<a href=""><h4>About Us</h4></a>
+<li>
+<%= link_to "about", {:action => "index", :class => "", :controller => "about", :anchor => "about" } do %>
+<strong><h4> | About Us</h4></strong>
+<% end %>
 </li>
 <li>
-<a href=""><h4>Collections</h4></a>
+<%= link_to "collections", {:action => "index", :class => "", :controller => "collections", :anchor => "collections" } do %>
+<strong><h4> | Collections</h4></strong>
+<% end %>
 </li>
 <li>
-<a href=""><h4>Events</h4></a>
+<%= link_to "events", {:action => "index", :class => "", :controller => "events", :anchor => "events" } do %>
+<strong><h4> | Events</h4></strong>
+<% end %>
 </li>
 <li>
-<a href=""><h4>Contact Us</h4></a>
+<%= link_to "contact", {:action => "index", :class => " ", :controller => "contact", :anchor => "Contact Us" } do %>
+<strong><h4> | Contact Us</h4></strong>
+<% end %>
 </li>
 </ul>
 </nav>
@@ -43,13 +56,13 @@
 </header>
 <!-- /Navbar-->
 <!--main body-->
-<div class="container">
+
 <%= yield %>
-</div>
+
 <!-- /main body-->
 <!--footer-->
 <div id="footer">
-<p style="color:#ffffff; font-size:14px;" class="text-center">&copy; Rupesh kumar &amp; sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprises Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Thank you for visiting "%></p> 
+<p style="color:#ffffff; font-size:14px;" class="text-center">&copy; Rupesh kumar &amp; Sons <%=Time.now.year=%> | Designed by <%=link_to "Techoweb Enterprises Pvt. Ltd.", "http://www.techoweb.com", :confirm => "Do Visit this site again!"%></p> 
 </div>
 <!-- /footer-->
 </div>

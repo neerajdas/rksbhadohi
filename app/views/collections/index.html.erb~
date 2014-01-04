@@ -1,0 +1,28 @@
+<% @title="Collections" %>
+<div style="background-color:#3D3D3D;font-size:16px;text-align:left;font-family:helvetica, sans-serif;line-height:1;margin:1px;margin:1px; padding-left:5%;padding-top:5%;padding-right:5%;padding-bottom:5%;">
+<div class="row">
+<div class="col-md-4 text-center">
+
+
+<%= image_tag("b1.jpg",:size => "160x160",:alt => "Domotex Fair")%>
+
+
+<%= image_tag("b2.jpg",:size => "160x160",:alt => "Domotex Fair")%>
+
+
+
+<%= image_tag("b3.jpg",:size => "160x160",:alt => "Domotex Fair")%>
+
+</div>
+<div class="col-md-6 text-center">
+
+
+<%= image_tag("b4.jpg",:size => "160x160",:alt => "Domotex Fair")%>
+
+
+<%= image_tag("b5.jpg",:size => "160x160",:alt => "Domotex Fair")%>
+
+</div>
+</div>
+</div>
+
