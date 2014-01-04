@@ -12,7 +12,7 @@
 <!-- Navbar-->
 <div class="masthead">
 <h2 class="muted"><a href="http://rksbhadohi.herokuapp.com/"><%= image_tag("logo.png",:size => "115x60",:alt => "Rupesh kumar &amp; Sons.") %></a>
-<a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" target="_blank" class="pull-right"><h5 class="pull-left" >Hall no.15,<p>Stand C32/3</p></h5><%= image_tag("123.jpg",:size => "90x60",:alt => "Domotex Fair")%>
+<a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" target="_blank" class="container-ad pull-right"><h5 class="text-left pull-left" >Hall no.15,<p class="text-left">Stand C32/3</p></h5><%= image_tag("123.png",:size => "90x60",:alt => "Domotex Fair")%>
 </a></h2>
 </div>
 
@@ -25,29 +25,29 @@
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a href="http://rksbhadohi.herokuapp.com/" class="navbar-brand"><h4>
-Home</h4></a>
+<a href="http://rksbhadohi.herokuapp.com/" class="navbar-brand">
+<strong>Home</strong></a>
 </div>
 <nav class="collapse navbar-collapse" style="align:center;" role="navigation">
 <ul class="nav navbar-nav">
 <li>
 <%= link_to "about", {:action => "index", :class => "", :controller => "about", :anchor => "about" } do %>
-<strong><h4> | About Us</h4></strong>
+<strong>| About Us</strong>
 <% end %>
 </li>
 <li>
 <%= link_to "collections", {:action => "index", :class => "", :controller => "collections", :anchor => "collections" } do %>
-<strong><h4> | Collections</h4></strong>
+<strong> | Collections</strong>
 <% end %>
 </li>
 <li>
 <%= link_to "events", {:action => "index", :class => "", :controller => "events", :anchor => "events" } do %>
-<strong><h4> | Events</h4></strong>
+<strong> | Events</strong>
 <% end %>
 </li>
 <li>
-<%= link_to "contact", {:action => "index", :class => " ", :controller => "contact", :anchor => "Contact Us" } do %>
-<strong><h4> | Contact Us</h4></strong>
+<%= link_to "contact", {:action => "index", :class => "", :controller => "contact", :anchor => "Contact Us" } do %>
+<strong> | Contact Us</strong>
 <% end %>
 </li>
 </ul>
