@@ -42,7 +42,7 @@
 <a data-toggle="modal" data-target="#myModal">
 <div class="input-group input-group-sm">
   <span class="input-group-addon">@</span>
-  <input type="text" style="width:60%;" class="form-control" placeholder="Something to say? Get in touch.">
+  <input type="text" style="width:60%;" class="form-control" placeholder="<h1>Something to say? Get in touch.</h1>">
 </div>
 </a>
 </td>
@@ -61,7 +61,7 @@
         <h4 class="modal-title" id="myModalLabel">Enquiry Form</h4>
       </div>
       <div class="modal-body">
-        Form!
+        OOPS! Something went missing.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn" data-dismiss="modal">Reset</button>
