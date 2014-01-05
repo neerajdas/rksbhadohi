@@ -1,16 +1,42 @@
 <% @title="Events" %>
-<div class="text-center" style="background-color:#3D3D3D;font-size:16px;text-align:left;font-family:helvetica, sans-serif;line-height:1;margin:1px;margin:1px; padding-left:5%;padding-top:5%;padding-right:5%;padding-bottom:10%;margin-bottom:60px;">
+<div class="text-center text-right" style="background-color:#3D3D3D;font-size:16px;text-align:left;font-family:helvetica, sans-serif;line-height:1;margin:1px;margin:1px; padding-left:5%;padding-top:5%;padding-right:5%;">
 <address>
 <div class="media">
 <a class="pull-left" href="#">
-<%= image_tag("123.jpg",:size => "160x110",:alt => "Domotex Fair")%>
+<%= image_tag("123.jpg",:size => "160x160",:alt => "Domotex Fair")%>
 </a>
 <div class="media-body">
 <p class="media-heading"><strong>We are participating at Domotex Hannover</strong></p>
-<p>from 11th-14th January.</p>
+<p>From 11th-14th January.</p>
 <p>We cordially invite you to <a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl">Visit us at our</a></p>
 <p>Stand No. C 32/3 in Hall 15.</p>
-<br><br><br>
+<button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#myModal"  >Click to know more</button>
+</div>
+<br>
+
+
+
+<!-- Modal -->
+<div >
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"><%= @title %>|  Happy <%= Time.now.strftime("%A") %>!</h4>
+      </div>
+      <div class="modal-body" style="width:900px;height=400px">
+        <iframe id="form" src="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" style="position:relative; top:0px; left:0px; bottom:0px; right:0px; width:558px; height:400px;overflow:auto; z-index:999999;">
+  Your browser doesn't support IFrames
+</iframe>`
+        
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
 </div>
 </address>
 </div>

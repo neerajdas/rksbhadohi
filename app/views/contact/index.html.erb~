@@ -1,20 +1,74 @@
 <% @title="Contact" %>
-<div style="background-color:#3D3D3D;font-size:16px;text-align:left;font-family:helvetica, sans-serif;line-height:1;margin:1px;margin:1px; padding-left:5%;padding-top:5%;padding-right:5%;padding-bottom:5%;">
-<address>
-<strong>Rupesh Kumar & Sons,</strong><br>
-Opposite Carpet City, Shardapuri, Bhadohi - 221401<br>
-(U.P.) INDIA<br>
-<abbr title="Phone">P:</abbr> (+91) 8376001407
-<abbr title="Phone">P:</abbr> (+91) 9873226609
-</address>
-<address>
-<strong>Rupesh Kumar & Sons,</strong><br>
-<a href="mailto:#">info@rupeshkumar.in</a><br>
-<strong>Partner: Mr. Rupesh Baranwal:</strong><br>
-<abbr title="Phone">P:</abbr> (+91) 9839806911, (+91) 9415203859
-<a href="mailto:#">rupesh_baranwal@yahoo.com</a><br>
-<strong>Partner: Mr. Namit Baranwal:</strong><br>
-<abbr title="Phone">P:</abbr> (+91) 9792801999<br>
-<a href="mailto:#">namit_baranwal@yahoo.co.in</a>
-</address>
+<div class="text-left" style="background-color:#3D3D3D;font-size:120%;font-family:helvetica, sans-serif;line-height:1;margin:1px;margin-top:1px; padding-left:5%;padding-right:5%;">
+
+<div class="table-responsive">
+<table class="table table-bordered">
+<thead>
+<tbody>
+<tr>
+<td>
+<abbr title="Head Office">Head Office :</abbr>
+</td>
+<td>
+<p><strong>Rupesh Kumar & Sons.</strong></p>
+<p>Opposite Carpet City<p></p>Shardapuri, Bhadohi - 221401</p>
+<p>(U.P.) India</p>
+</td>
+</tr>
+<tr>
+<td>
+<abbr title="Email">Email :</abbr>
+</td>
+<td>
+<p><abbr title="Company"><strong>Rupesh Kumar & Sons.</strong></abbr></p><p><a href="mailto:#">info@rupeshkumar.in</a></p>
+<p><abbr title="Partner"><strong>Mr. Rupesh Baranwal</strong></abbr></p><p><a href="mailto:#">rupesh_baranwal@yahoo.com</a></p>
+<p><abbr title="Partner"><strong>Mr. Namit Baranwal</strong></abbr></p><p><a href="mailto:#">namit_baranwal@yahoo.co.in</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<abbr title="Mobile">Mobile :</abbr>
+</td>
+<td>
+<p><abbr title="Mr. Rupesh Baranwal">(+91) 9839806911,(+91) 9415203859</abbr></p>
+<p><abbr title="Mr. Namit Baranwal">(+91) 9792801999</abbr></p>
+</td>
+</tr>
+<tr>
+<td>
+<abbr title="Enquiry">Enquiry :</abbr>
+</td>
+<td>
+<a data-toggle="modal" data-target="#myModal">
+<div class="input-group input-group-sm">
+  <span class="input-group-addon">@</span>
+  <input type="text" style="width:60%;" class="form-control" placeholder="Enquiry form">
+</div>
+</a>
+</td>
+</tr>
+</tbody>
+</thead>
+</table>
+</div>  
+<!-- Modal -->
+<div >
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Enquiry Form</h4>
+      </div>
+      <div class="modal-body">
+        Form!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn">Save & Send</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
 </div>
