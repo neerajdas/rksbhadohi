@@ -6498,17 +6498,17 @@ button.close {
   bottom: 0;
   left: 0;
   width: 15%;
-  font-size: 20px;
+  font-size: 100px;
   color: #ffffff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  opacity: 0.5;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
   filter: alpha(opacity=50);
 }
 
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0,  1) 0), color-stop(rgba(0, 0, 0, 0.01) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0,  1) 0, rgba(0, 0, 0, 0.01) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
@@ -6516,8 +6516,8 @@ button.close {
 .carousel-control.right {
   right: 0;
   left: auto;
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.01) 0), color-stop(rgba(0, 0, 0,  1) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.01) 0, rgba(0, 0, 0, 1) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
@@ -6527,8 +6527,8 @@ button.close {
   color: #ffffff;
   text-decoration: none;
   outline: none;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  opacity: 1;
+  filter: alpha(opacity=0);
 }
 
 .carousel-control .icon-prev,
@@ -6539,6 +6539,7 @@ button.close {
   top: 50%;
   z-index: 5;
   display: inline-block;
+  
 }
 
 .carousel-control .icon-prev,
@@ -6637,6 +6638,7 @@ button.close {
     bottom: 20px;
   }
 }
+
 
 .clearfix:before,
 .clearfix:after {
@@ -7435,5 +7437,37 @@ body {
 ----------------------------------------------------------------------------------------------------------------------------------------
 /*Lightbox*/
 ---------------------------------------------------------------------------------------------------------------------------------------
+.bs-example {
+  position: relative;
+  padding: 45px 15px 15px;
+  margin: 0 -15px 15px;
+  background-color: #ffffff;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+  border-color: #e5e5e5 #eee #eee;
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+.div {
+    float: left; 
+    clear: none;
+    position: relative;
+    
+    
+    
+    
+    
+    margin: 0 60px;
+}
+
+
+.div1 {
+    text-align: justify; 
+    clear: left;
+    display: inline-block;
+    width: 100px; 
+    
+}
+
 
 

@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-<a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" target="_blank" class="pull-right" style="padding-top:25px;"><h4 class="text-left pull-left">Hall no. 15 &nbsp;,<p class="text-left"><br>Stand C32/3 	&nbsp;</p></h4><%= image_tag("123.png",:size => "90x90",:alt => "Domotex Fair")%>
+<a href="http://www.domotex.de/exhibitor/rupesh-kumar-sons/D960003?source=akl" target="_blank" class="pull-right" style="padding-top:25px;"><h4 class="text-right pull-left"><p>Hall no.15&nbsp;&nbsp;</p><p class="text-left"><br>Stand C32/3 	&nbsp;</p></h4><%= image_tag("123.png",:size => "90x90",:alt => "Domotex Fair")%>
 </a>
 <!-- Navbar-->
 <div class="masthead">
@@ -25,34 +25,35 @@
 <span class="icon-bar"></span>
 </button>
 <a href="http://rksbhadohi.herokuapp.com/" class="navbar-brand">
-<strong>Home</strong></a>
+<h3><p class="text-center">HOME</p></h3></a>
 </div>
-<nav class="collapse navbar-collapse" style="align:center;" role="navigation">
+<nav class="collapse navbar-collapse" style="align:right;" role="navigation">
 <ul class="nav navbar-nav">
 <li>
-<%= link_to "about", {:action => "index", :class => "", :controller => "about", :anchor => "about" } do %>
-<strong>| About Us</strong>
+<%= link_to "about", {:action => "index", :class => "navbar-brand", :controller => "about", :anchor => "about" } do %>
+<h3><p class="text-center">| ABOUT US</p></h3>
 <% end %>
 </li>
 <li>
-<%= link_to "collections", {:action => "index", :class => "", :controller => "collections", :anchor => "collections" } do %>
-<strong> | Collections</strong>
+<%= link_to "collections", {:action => "index", :class => "navbar-brand", :controller => "collections", :anchor => "collections" } do %>
+<h3><p class="text-center">| COLLECTIONS</p></h3>
 <% end %>
 </li>
 <li>
-<%= link_to "events", {:action => "index", :class => "", :controller => "events", :anchor => "events" } do %>
-<strong> | Events</strong>
+<%= link_to "events", {:action => "index", :class => "navbar-brand", :controller => "events", :anchor => "events" } do %>
+<h3><p class="text-center">| EVENTS</p></h3>
 <% end %>
 </li>
 <li>
-<%= link_to "contact", {:action => "index", :class => "", :controller => "contact", :anchor => "Contact Us" } do %>
-<strong> | Contact Us</strong>
+<%= link_to "contact", {:action => "index", :class => "navbar-brand", :controller => "contact", :anchor => "Contact Us" } do %>
+<h3><p class="text-center"> | CONTACT US</p></h3>
 <% end %>
 </li>
 </ul>
 </nav>
 </div>
 </header>
+
 <!-- /Navbar-->
 <!--main body-->
 
