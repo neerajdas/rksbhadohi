@@ -1,7 +1,5 @@
 <% @title="Collections" %>
-<div class="text-center">
-<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:1%;padding-top:5%;padding-right:1%;padding-bottom:5%;">
-
+<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:1%;padding-top:1%;padding-right:1%;padding-bottom:1%;">
 <div class="row">
 <div class="div">
     <a href="#" data-toggle="modal" data-target="#bamboo" data-toggle="tooltip" title="Bamboo Silk Collection">
@@ -9,12 +7,44 @@
     </a>
 	<h6>Bamboo Silk Collection</h6>
 </div> 
-<!-----Modal view for Bamboo ------->
+<div class="div"> 
+    <a href="#" data-toggle="modal" data-target="#flatweavecollection" data-toggle="tooltip" title="Flat Weave Collection">
+      <%=image_tag("flat.jpg",:size => "160x250",:alt => "Flat Weave Collection")%>
+    </a>
+	<h6>Flat Weave Collection</h6>
+</div>
+<div class="div">
+<a href="#" data-toggle="modal" data-target="#mirabella" data-toggle="tooltip" title="Mirabella Collection" >
+      <%= image_tag("mirabela.jpg",:size => "160x250",:alt => "Mirabella Collection")%>
+    </a>
+	<h6>Mirabella Collection</h6>
+</div></div>
+<div class="row">
+<div class="div">
+
+	<a href="#" data-toggle="modal" data-target="#modern" data-toggle="tooltip" title="Modern Collection" >
+      <%= image_tag("modern.jpg",:size => "160x250",:alt => "Modern Collection" )%>
+    </a>
+	<h6>Modern Collection</h6>
+</div>
+<div class="div">
+	<a href="#" data-toggle="modal" data-target="#silk" data-toggle="tooltip" title="Silk Flower Collection" >
+      <%= image_tag("silk.JPG",:size => "160x250",:alt => "Silk Flower Collection" )%>
+    </a>
+	<h6>Silk Flower Collection</h6>
+</div>
+</div> 
+</div>
+<div class="clear">
+</div>
+<!---------------------  models--------------------------------------------------------------->
+
+<!----bamboo----->
 <div class="modal fade" id="bamboo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
   <div class="modal-dialog">
     <div class="modal-content"style="background-color:#3D3D3D;">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <span style="color:#ffffff" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
         <h4 class="modal-title" id="myModalLabel">Bamboo Silk Collection</h4>
       </div>
       <div class="modal-body">
@@ -118,87 +148,959 @@
     </a>
 	<h6>BS-3(GREY)</h6>
  </div>
-
-
 </div>
-
-<!---------------body-------------->
-
-
-
-
- 
-
 </div>
 </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-----Modal inception Bamboo------>
 <div class="modal fade" id="bamboo1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
-  <div class="modal-dialog">
+  <div class="modal-dialog"  style="width:330px;height:640px;">
     <div class="modal-content"style="background-color:#3D3D3D;">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title" id="myModalLabel">Bamboo Silk Collection</h4>
       </div>
       <div class="modal-body">
-       ---soso--- 
+       <!--slider-->
+<div id="bamboo12" class="carousel slide marketing" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+ <%= image_tag("SWL-8 (D. BLUE).jpg")%>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SWL-8 (D. BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-1 (BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-1 (BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-1 (CAMEL).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-1 (CAMEL)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SWL-7 (BROWN).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SWL-7 (BROWN)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SWL-3 (RED).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SWL-3 (RED)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SWL-2 (MD. BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SWL-2 (MD. BLUE).jpg
+</div>
+</div>
+<div class="item">
+<%= image_tag("SWL-1 (IVORY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SWL-1 (IVORY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SWL-1D (RED).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SWL-1D (RED)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SWL-1B (BLACK).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SWL-1B (BLACK)
+</div>
+</div>
+<div class="item">
+<%= image_tag("JN-2 (BEIGE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+JN-2 (BEIGE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("JN-1 (GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+JN-1 (GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("JN-2 (BEIGE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+JN-2 (BEIGE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("BS-5 (RED).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+BS-5 (RED)
+</div>
+</div>
+<div class="item">
+<%= image_tag("BS-5 (GREY-BROWN).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+BS-5 (GREY-BROWN)
+</div>
+</div>
+<div class="item">
+<%= image_tag("BS-5 (GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+BS-5 (GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("BS-3 (GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+BS-3 (GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("BS-1 (CAMEL-LT. BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+BS-1 (CAMEL-LT. BLUE)
+</div>
+</div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="#bamboo12" data-slide="prev">
+<span style="margin-top: -70px; font-size:100px;"class="icon-prev"></span>
+</a>
+<a class="right carousel-control" href="#bamboo12" data-slide="next">
+<span style="margin-top: -70px; font-size:100px;" class="icon-next"></span>
+</a>
+</div>
+<!--/slider-->
+
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<!---------------------------------------flat weave---------------------------------------------->
+<!-- Modal -->
+<div class="modal fade" id="flatweavecollection" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <span style="color:#ffffff" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="myModalLabel">Flat Weave Collection</h4>
+      </div>
+      <div class="modal-body">
+      <div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4223-1.jpg",:size => "80x125",:alt => "IMG_4223-1")%>
+        </a>
+	<h6>IMG_4223-1</h6>
+      </div>
+      <div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4224-1.jpg",:size => "80x125",:alt => "IMG_4224-1")%>
+        </a>
+	<h6>IMG_4224-1</h6>
+      </div>
+	<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4227-1.jpg",:size => "80x125",:alt => "IMG_4227-1")%>
+        </a>
+	<h6>IMG_4227-1</h6>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4229-1.jpg",:size => "80x125",:alt => "IMG_4229-1")%>
+        </a>
+	<h6>IMG_4229-1</h6>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4230-1.jpg",:size => "80x125",:alt => "IMG_4230-1")%>
+        </a>
+	<h6>IMG_4230-1</h6>
+      </div>
+
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4233-1.jpg",:size => "80x125",:alt => "IMG_4233-1")%>
+        </a>
+	<h6>IMG_4233-1</h6>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4235-1.jpg",:size => "80x125",:alt => "IMG_4235-1")%>
+        </a>
+	<h6>IMG_4235-1.jpg</h6>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4235-1.jpg",:size => "80x125",:alt => "IMG_4235-1")%>
+        </a>
+	<h6>IMG_4235-1</h6>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#flatweavecollection1" data-toggle="tooltip" title="Flat Weave Collection">
+        <%=image_tag("IMG_4236-1.jpg",:size => "80x125",:alt => "IMG_4236-1")%>
+        </a>
+	<h6>IMG_4236-1</h6>
+      </div>
 
 
+    </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-----Modal inception flat------>
+<div class="modal fade" id="flatweavecollection1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+  <div class="modal-dialog" style="width:330px;height:640px;">
+    <div class="modal-content"style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Flat Weave Collection</h4>
+      </div>
+      <div class="modal-body">
+       <!--slider-->
+<div id="flat12" class="carousel slide marketing" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+ <%= image_tag("IMG_4223-1.jpg")%>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4223-1
+</div>
+</div>
+<div class="item">
+<%= image_tag("IMG_4224-1.jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4224-1
+</div>
+</div>
+<div class="item">
+<%= image_tag("IMG_4227-1.jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4227-1
+</div>
+</div>
+<div class="item">
+<%= image_tag("IMG_4229-1.jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4229-1
+</div>
+</div>
+<div class="item">
+<%= image_tag("IMG_4230-1.jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4230-1
+</div>
+</div>
+<div class="item">
+<%= image_tag("IMG_4233-1.jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4233-1
+</div>
+</div>
+<div class="item">
+<%= image_tag("IMG_4235-1.jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4235-1
+</div>
+</div>
+<div class="item">
+<%= image_tag("IMG_4236-1.jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+IMG_4236-1
+
+</div>
+</div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="#flat12" data-slide="prev">
+<span style="margin-top: -70px; font-size:100px;"class="icon-prev"></span>
+</a>
+<a class="right carousel-control" href="#flat12" data-slide="next">
+<span style="margin-top: -70px; font-size:100px;" class="icon-next"></span>
+</a>
+</div>
+<!--/slider--> 
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-------------------------------------------Mirabella Collection-------------------->
+<div class="modal fade" id="mirabella" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <span style="color:#ffffff" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="myModalLabel">Mirabella Collection</h4>
+      </div>
+      <div class="modal-body" style="padding-left:10%;">
+      <div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-301 (BEIGE-ORANGE).jpg",:size => "80x125",:alt => "MB-301 (BEIGE-ORANGE)")%>
+        </a>
+	<h6>MB-301</h6><small>BEIGE-ORANGE</small>
+      </div>
+      <div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-301 (BEIGE-SILVER).jpg",:size => "80x125",:alt => "MB-301 (BEIGE-SILVER)1")%>
+        </a>
+	<h6>MB-301</h6><small>BEIGE-SILVER</small>
+      </div>
+	<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-302(IVORY-ROSE).jpg",:size => "80x125",:alt => "MB-302(IVORY-ROSE)")%>
+        </a>
+	<h6>MB-302</h6><small>IVORY-ROSE</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-303 (BEIGE-BLUE).jpg",:size => "80x125",:alt => "MB-303 (BEIGE-BLUE)")%>
+        </a>
+	<h6>IMB-303</h6><small>BEIGE-BLUE</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-303 (BEIGE-GREY).jpg",:size => "80x125",:alt => "MB-303 (BEIGE-GREY)")%>
+        </a>
+	<h6>MB-303</h6><small>BEIGE-GREY</small>
+      </div>
+
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-303 (GREEN-ORANGE).jpg",:size => "80x125",:alt => "MB-303 (GREEN-ORANGE)")%>
+        </a>
+	<h6>MB-303</h6><small>GREEN-ORANGE</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-304 (BEIGE-GREEN).jpg",:size => "80x125",:alt => "MB-304 (BEIGE-GREEN)")%>
+        </a>
+	<h6>MB-304</h6><small>BEIGE-GREEN</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-304 (BEIGE-TURQUOISE).jpg",:size => "80x125",:alt => "MB-304 (BEIGE-TURQUOISE)")%>
+        </a>
+	<h6>MB-304</h6><small>BEG-TURQUOISE</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-304 (GREY-SILVER).jpg",:size => "80x125",:alt => "MB-304 (GREY-SILVER)")%>
+        </a>
+	<h6>MB-304</h6><small>GREY-SILVER</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-304 (LILAC).jpg",:size => "80x125",:alt => "MB-304 (LILAC)")%>
+        </a>
+	<h6>MB-304</h6><small>LILAC</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-304 (SILVER-SILVER).jpg",:size => "80x125",:alt => "MB-304 (SILVER-SILVER)")%>
+        </a>
+	<h6>MB-304</h6><small>SILVER-SILVER</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-305 (BEIGE-TURQUOISE GREEN).jpg",:size => "80x125",:alt => "MB-305 (BEIGE-TURQUOISE GREEN)")%>
+        </a>
+	<h6>MB-305</h6><small>BEG-TURQ GRN</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-306 (SILVER).jpg",:size => "80x125",:alt => "MB-306 (SILVER)")%>
+        </a>
+	<h6>MB-306</h6><small>SILVER</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#mirabella1" data-toggle="tooltip" title="Mirabella Collection">
+        <%=image_tag("MB-308 (GREY-ORANGE).jpg",:size => "80x125",:alt => "MB-308 (GREY-ORANGE)")%>
+        </a>
+	<h6>MB-308</h6><small>GREY-ORANGE</small>
+      </div>
 
 
-<div class="div"> 
-    <a href="#" data-toggle="modal" data-target="#flatweavecollection" data-toggle="tooltip" title="Flat Weave Collection">
-      <%=image_tag("flat.jpg",:size => "160x250",:alt => "Flat Weave Collection")%>
-    </a>
-	<h6>Flat Weave Collection</h6>
+    </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-----Modal inception mirabella------>
+<div class="modal fade" id="mirabella1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+  <div class="modal-dialog"  style="width:330px;height:640px;">
+    <div class="modal-content"style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <span style="color:#ffffff" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="myModalLabel">Mirabella Collection</h4>
+      </div>
+      <div class="modal-body">
+       <!--slider-->
+<div id="mirabella12" class="carousel slide marketing" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+ <%= image_tag("MB-301 (BEIGE-ORANGE).jpg")%>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-301 (BEIGE-ORANGE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-301 (BEIGE-SILVER).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-301 (BEIGE-SILVER)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-303 (BEIGE-BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-303 (BEIGE-BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-303 (BEIGE-GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-303 (BEIGE-GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-303 (GREEN-ORANGE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-303 (GREEN-ORANGE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-304 (BEIGE-GREEN).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-304 (BEIGE-GREEN)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-304 (BEIGE-TURQUOISE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-304 (BEIGE-TURQUOISE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-304 (GREY-SILVER).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-304 (GREY-SILVER)
+</div>
 </div>
 
-<!-------- Modal view for Flat Weaver------>
-
-
-<div class="div">
-    
-    <a href="#" data-toggle="modal" data-target="#mirabella" data-toggle="tooltip" title="Mirabella Collection" >
-      <%= image_tag("mirabela.jpg",:size => "160x250",:alt => "Mirabella Collection")%>
+<div class="item">
+<%= image_tag("MB-304 (LILAC).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-304 (LILAC)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-304 (SILVER-SILVER).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-304 (SILVER-SILVER)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-305 (BEIGE-TURQUOISE GREEN).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-305 (BEIGE-TURQUOISE GREEN)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-306 (SILVER).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-306 (SILVER)
+</div>
+</div>
+<div class="item">
+<%= image_tag("MB-308 (GREY-ORANGE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+MB-308 (GREY-ORANGE)
+</div>
+</div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="#mirabella12" data-slide="prev">
+<span style="margin-top: -70px; font-size:100px;"class="icon-prev"></span>
+</a>
+<a class="right carousel-control" href="#mirabella12" data-slide="next">
+<span style="margin-top: -70px; font-size:100px;" class="icon-next"></span>
+</a>
+</div>
+<!--/slider-->- - 
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!----------------------------Modern Collection------------------>
+<div class="modal fade" id="modern" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content"style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <span style="color:#ffffff" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="myModalLabel">Modern Collection</h4>
+      </div>
+      <div class="modal-body">
+<!-----------body------------------>
+<div class="row " style="background-color:#3D3D3D;font-size:16px;text-align:justify;font-family:helvetica, sans-serif;line-height:1;margin:1px;margin:1px; padding-left:20%;padding-top:5%;padding-right:15%;padding-bottom:20%;" >
+        <div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("BS-4 (LT.GREY).jpg",:size => "80x125",:alt => "Modern Collection")%>
     </a>
-	<h6>Mirabella Collection</h6>
+	<h6>BS-4lt.grey</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("SM-1 (BEIGE-PURPLE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>SM-1BEG-purple</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("SM-2 (SILVER-BLACK).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>SM-2SILVER-black</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("SM-3 (LT. BLUE-GREY).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>SM-3lt.blue-grey</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("SM-4 (BEIGE-GREY)).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>SM-4beige-grey</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("SM-5 (IVORY-LT. BLUE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>SM-5ivory-lt.blue</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-2A (RED).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-2ared</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-2 (IVORY-BLUE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-2Ivory-Blue</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-3 (GREY).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-3grey</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-4 (CAMEL).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-4camel</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-4 (D. BLUE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>JWL-4D.BLUE</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-4 (GREY).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-4GREY</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-5 (BLUE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-5BLUE</h6>
+       </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-6 (GREY-BLUE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-6GREY-blue</h6>
+       </div>
+
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-9 (D. BROWN).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-9D.BROWN</h6>
+       </div>
+
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-11 (BEIGE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-11BEIGE</h6>
+ </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-11 (BEIGE-MD. BLUE).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-11BEIGE-MD.BLUE</h6>
+ </div>
+<div class="div1">
+    <a href="#" data-toggle="modal" data-target="#modern1" data-toggle="tooltip" title="Modern Collection|">
+      <%= image_tag("WL-11 (GREY).jpg",:size => "80x125",:alt => "Modern Collection")%>
+    </a>
+	<h6>WL-11GREY</h6>
+ </div>
 </div>
 
-<!-------- Modal view for Mirabella-------->
-
-
-
-<div class="row">
-<div class="div"style="line-height:1;margin:1px;margin:1px;padding-left:20%;padding-top:1%;padding-right:0%;padding-bottom:1%;float:left;">
-	<a href="#" data-toggle="modal" data-target="#modern" data-toggle="tooltip" title="Modern Collection" >
-      <%= image_tag("modern.jpg",:size => "160x250",:alt => "Modern Collection" )%>
-    </a>
-	<h6>Modern Collection</h6>
-</div> 
-
-<!----------- Modal view for Modern ------> 
-
-<div class="div" style="line-height:1;margin:1px;margin:1px;padding-left:0%;padding-top:1%;padding-right:20%;padding-bottom:1%;float:right;">
-    <a href="#" data-toggle="modal" data-target="#silk" data-toggle="tooltip" title="Silk Flower Collection" >
-      <%= image_tag("silk.JPG",:size => "160x250",:alt => "Silk Flower Collection" )%>
-    </a>
-	<h6>Silk Flower Collection</h6>
+<!---------------body-------------->
 </div>
-<!----------- Modal view for Silk-------->
+</div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-----Modal inception Bamboo------>
+<div class="modal fade" id="modern1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+  <div class="modal-dialog"  style="width:330px;height:640px;">
+    <div class="modal-content"style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <span style="color:#ffffff;"  type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="myModalLabel">Modern Collection</h4>
+      </div>
+      <div class="modal-body">
+       <!--slider-->
+<div id="modern12" class="carousel slide marketing" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+ <%= image_tag("BS-4 (LT.GREY).jpg")%>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+BS-4(LT.GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SM-1 (BEIGE-PURPLE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SM-1(BEIGE-PURPLE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SM-2 (SILVER-BLACK).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SM-2(SILVER-BLACK)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SM-3 (LT. BLUE-GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SM-3(LT.BLUE-GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SM-4 (BEIGE-GREY)).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SM-4(BEIGE-GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SM-5 (IVORY-LT. BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SM-5(IVORY-LT.BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-3 (GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-3(GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-4 (CAMEL).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-4(CAMEL)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-4 (D. BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-4(D.BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-4 (GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-4(GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-5 (BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-5(BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-6 (GREY-BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-6(GREY-BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-9 (D. BROWN).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-9(D.BROWN)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-11 (BEIGE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-11(BEIGE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-11 (BEIGE-MD. BLUE).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-11(BEIGE-MD.BLUE)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-11 (GREY).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-11(GREY)
+</div>
+</div>
+<div class="item">
+<%= image_tag("WL-13 (GREY-MULTI).jpg") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+WL-13(GREY-MULTI)
+</div>
+</div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="#modern12" data-slide="prev">
+<span style="margin-top: -70px; font-size:100px;"class="icon-prev"></span>
+</a>
+<a class="right carousel-control" href="#modern12" data-slide="next">
+<span style="margin-top: -70px; font-size:100px;" class="icon-next"></span>
+</a>
+</div>
+<!--/slider-->
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!----------------------------------Silk Flower Collection----------------->
+
+<div class="modal fade" id="silk" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <span style="color:#ffffff" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="myModalLabel">Silk Flower Collection</h4>
+      </div>
+      <div class="modal-body" style="padding-left:10%;">
+      <div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-11 (Green-Ivory).JPG",:size => "80x125",:alt => "SF-11 (Green-Ivory)")%>
+        </a>
+	<h6>SF-11</h6><small>Green-Ivory</small>
+      </div>
+      <div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-20 (Ivory-Gold).JPG",:size => "80x125",:alt => "SF-20 (Ivory-Gold)")%>
+        </a>
+	<h6>SF-20</h6><small>Ivory-Gold</small>
+      </div>
+	<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-121 (Black-Beige).JPG",:size => "80x125",:alt => "SF-121 (Black-Beige)")%>
+        </a>
+	<h6>SF-121</h6><small>Black-Beige</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-121 (Ivory-Black).JPG",:size => "80x125",:alt => "MB-303 (BEIGE-BLUE)")%>
+        </a>
+	<h6>SF-121</h6><small>Ivory-Black</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-121 (Ivory-Gold).JPG",:size => "80x125",:alt => "MB-303 (BEIGE-GREY)")%>
+        </a>
+	<h6>SF-121</h6><small>Ivory-Gold</small>
+      </div>
+
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-121 (Ivory-Lt.Green).JPG",:size => "80x125",:alt => "MB-303 (GREEN-ORANGE)")%>
+        </a>
+	<h6>SF-121</h6><small>Ivory-Lt.Green</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-121 (Lt.Blue-Ivory).JPG",:size => "80x125",:alt => "F-121 (Lt.Blue-Ivory)")%>
+        </a>
+	<h6>SF-121</h6><small>Lt.Blue-Ivory</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-121 (Red-Beige).JPG",:size => "80x125",:alt => "MB-304 (BEIGE-TURQUOISE)")%>
+        </a>
+	<h6>SF-121</h6><small>Red-Beige</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-122 (Ivory-Black).JPG",:size => "80x125",:alt => "MB-304 (GREY-SILVER)")%>
+        </a>
+	<h6>SF-122</h6><small>Ivory-Black</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-122 (Ivory-Brown).JPG",:size => "80x125",:alt => "MB-304 (LILAC)")%>
+        </a>
+	<h6>SF-122</h6><small>Ivory-Brown</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-122 (Ivory-Gold).JPG",:size => "80x125",:alt => "MB-304 (SILVER-SILVER)")%>
+        </a>
+	<h6>SF-122</h6><small>Ivory-Gold</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-122 (Ivory-Ivory).JPG",:size => "80x125",:alt => "MB-305 (BEIGE-TURQUOISE GREEN)")%>
+        </a>
+	<h6>SF-122</h6><small>Ivory-Ivory</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-122 (Ivory-Red).JPG",:size => "80x125",:alt => "MB-306 (SILVER)")%>
+        </a>
+	<h6>SF-122</h6><small>Ivory-Red</small>
+      </div>
+<div class="div1">
+       <a href="#" data-toggle="modal" data-target="#silk1" data-toggle="tooltip" title="Silk Flower Collection">
+        <%=image_tag("SF-122 (Rust-Ivory).JPG",:size => "80x125",:alt => "MB-308 (GREY-ORANGE)")%>
+        </a>
+	<h6>SF-122</h6><small>Rust-Ivory</small>
+      </div>
 
 
-
-
-
-</div> 
-</div> 
+    </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-----Modal inception silk------>
+<div class="modal fade" id="silk1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+  <div class="modal-dialog"  style="width:330px;height:640px;">
+    <div class="modal-content"style="background-color:#3D3D3D;">
+      <div class="modal-header">
+        <span style="color:#ffffff" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="myModalLabel">Silk Flower Collection</h4>
+      </div>
+      <div class="modal-body">
+       <!--slider-->
+<div id="silk12" class="carousel slide marketing" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+ <%= image_tag("SF-11 (Green-Ivory).JPG")%>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-11 (Green-Ivory)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-20 (Ivory-Gold).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-20 (Ivory-Gold)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-121 (Black-Beige).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-121(Black-Beige)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-121 (Ivory-Black).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-121(Ivory-Black)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-121 (Ivory-Gold).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-121(Ivory-Gold)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-121 (Ivory-Lt.Green).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-121(Ivory-Lt.Green)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-121 (Lt.Blue-Ivory).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-121(Lt.Blue-Ivory)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-121 (Red-Beige).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-121(Red-Beige)
+</div>
 </div>
 
+<div class="item">
+<%= image_tag("SF-122 (Ivory-Black).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-122(Ivory-Black)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-122 (Ivory-Brown).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-122(Ivory-Brown)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-122 (Ivory-Gold).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-122(Ivory-Gold)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-122 (Ivory-Ivory).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-122(Ivory-Ivory)
+</div>
+</div>
+<div class="item">
+<%= image_tag("SF-122 (Ivory-Red).JPG") %>
+<div class="carousel-caption"style="color:#000000;font-size:28px;">
+SF-122(Ivory-Red)
+</div>
+</div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="#silk12" data-slide="prev">
+<span style="margin-top: -70px; font-size:100px;"class="icon-prev"></span>
+</a>
+<a class="right carousel-control" href="#silk12" data-slide="next">
+<span style="margin-top: -70px; font-size:100px;" class="icon-next"></span>
+</a>
+</div>
+<!--/slider-->- - 
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
