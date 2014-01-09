@@ -7468,13 +7468,32 @@ body {
     width: 100px; 
     
 }
-.div2 {
-    text-align: absolute; 
-    clear: left;
-    display: inline-block;
-    width: 100px;
-    float:left; 
+.divcn {
+    float: left; 
+    clear: none;
+    position: relative;
     
+    margin: 0 60px;
 }
+/* Example modals */
+.bs-example-modal {
+  background-color: transparent;
+}
+.bs-example-modal .modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  left: auto;
+  bottom: auto;
+  z-index: 0;
+  display: block;
+}
+.bs-example-modal .modal-dialog {
+  left: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 
