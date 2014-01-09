@@ -25,7 +25,7 @@
 <span class="icon-bar"></span>
 </button>
 <a href="http://rksbhadohi.herokuapp.com/" class="navbar-brand">
-<h6 class="text-center">HOME</h6></a>
+<h5 class="text-center">HOME</h5></a>
 </div>
 <nav class="collapse navbar-collapse" style="align:right;" role="navigation">
 <ul class="nav navbar-nav">

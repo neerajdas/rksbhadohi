@@ -1,7 +1,7 @@
 <% @title="Contact" %>
-<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:1%;padding-top:2%;padding-right:1%;padding-bottom:2%;">
+<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:1%;padding-top:5%;padding-right:0%;padding-bottom:2%;">
 <div class="row">
-<div class="div">
+<div class="div pull-left-justify">
 <address>
 <strong>RUPESH KUMAR & SONS.</strong><br>
 Opposite Carpet City<br>
@@ -21,12 +21,12 @@ Contact Persons:<br>
 </address>
 </div>
 <div class="row">
-   <div class="div pull-right">
-	      <div class="div" style="padding-top:justify;width:180px;height:200px;">
+   <div class="div pull-right"style="padding-right:0%;">
+	      <div class="div" style="padding-top:justify;width:180px;">
 	      <form role="form">
 	      <div class="form-group"style="background-color:#3D3D3D;">
-    		<label>Equiry Forms</label></br>
-                <label for="email">Email:</label>
+    		<label>Equiry Forms</label><br>
+                <label for="email" >Email:</label>
     		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                </div>
                <label for="contact">Contact No:</label>
@@ -37,6 +37,7 @@ Contact Persons:<br>
 		<label for="email">Message:</label>
 		<textarea class="form-control" placeholder="Please write ur enquiry here."></textarea><br><button type="submit"class="btn-small pull-right ">Submit</button><br>
 </form>
+
 </div>
 </div>
 </div>
