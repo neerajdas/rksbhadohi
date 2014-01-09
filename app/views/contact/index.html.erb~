@@ -1,40 +1,49 @@
 <% @title="Contact" %>
-<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:5%;padding-top:2%;padding-right:2%;padding-bottom:0%;">
+<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:1%;padding-top:2%;padding-right:1%;padding-bottom:2%;">
+<div class="row">
+<div class="div">
 <address>
 <strong>RUPESH KUMAR & SONS.</strong><br>
-<address><div class="pull-right">
-	      <div class="" style="padding-top:10px;">
-	      <form role="form">
-	      <div class="form-group">
-    		<label>Equiry Forms</label>
-    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-               </div>
-               <label for="">Text input</label>
-               <input type="text" class="form-control" placeholder="Text input">
-               <textarea class="form-control"></textarea>
-
-	      </form>
-	      </div>
-
-</div><!-- /example -->
-</address>
 Opposite Carpet City<br>
 Shardapuri, Bhadohi 221401<br>
 Uttar Pradesh, INDIA<br>
 
 <abbr title="Phone">Phone:</abbr> +91 5414 224456<br>
 <abbr title="Fax">Fax:</abbr> +91 5414 224456<br>
-<a href="mailto:#"> info@rupeshkumar.in<br>
+<a href="mailto:#"> info@rupeshkumar.in</a><br>
 </address>
 <address>
 Contact Persons:<br>
 <strong>Mr. Rupesh Baranwal</strong><br>
-<a href="mailto:#"> rupesh_baranwal@yahoo.com<br>
+<a href="mailto:#"> rupesh_baranwal@yahoo.com</a><br>
 <strong>Mr. Namit Baranwal </strong><br>
 <a href="mailto:#"> namit_baranwal@yahoo.co.in</a><br>
 </address>
-
+</div>
+<div class="row">
+   <div class="div pull-right">
+	      <div class="div" style="padding-top:justify;width:180px;height:200px;">
+	      <form role="form">
+	      <div class="form-group"style="background-color:#3D3D3D;">
+    		<label>Equiry Forms</label></br>
+                <label for="email">Email:</label>
+    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+               </div>
+               <label for="contact">Contact No:</label>
+               <input type="contact" class="form-control" id="exampleInputEmail1" placeholder="Phone no.">
+               <label for="subject">Subject:</label>
+               
+               <input type="subject" class="form-control" id="exampleInputEmail1" placeholder="Subject">
+		<label for="email">Message:</label>
+		<textarea class="form-control" placeholder="Please write ur enquiry here."></textarea><br><button type="submit"class="btn-small pull-right ">Submit</button><br>
+</form>
+</div>
+</div>
+</div>
+</div>
 </div>
 
+
+	     
 
 
