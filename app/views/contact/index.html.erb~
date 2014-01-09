@@ -1,13 +1,12 @@
 <% @title="Contact" %>
-<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:5%;padding-top:5%;padding-right:5%;padding-bottom:0%;">
-<div class="bs-example bs-example-modal pull-right">
-      <div class="modal">
-          <div class="modal-content"style="background-color:transparent;">
-            <div class="modal-body">
-              ----here comes the form----
+<div style="background-color:#3D3D3D;line-height:1;margin:1px;margin:1px;padding-left:5%;padding-top:2%;padding-right:2%;padding-bottom:0%;">
+<div class="">
+<h3>RUPESH KUMAR & SONS</h3><br>
+<div class="pull-right">
+	      <div class="" style="padding-top:20px;">
 	      <form role="form">
 	      <div class="form-group">
-    		<label for="exampleInputEmail1">Email address</label>
+    		<label>Equiry Forms</label>
     		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                </div>
                <label for="">Text input</label>
@@ -15,12 +14,9 @@
                <textarea class="form-control"></textarea>
 
 	      </form>
-              </div>
-          </div><!-- /.modal-content -->
-      </div><!-- /.modal -->
-    </div><!-- /example -->
-<p>
-RUPESH KUMAR & SONS<br>
+	      </div>
+
+</div><!-- /example -->
 Opposite Carpet City<br>
 Shardapuri, Bhadohi 221401<br>
 Uttar Pradesh, INDIA<br>
@@ -35,7 +31,8 @@ Mr. Rupesh Baranwal</br>
 Email: rupesh_baranwal@yahoo.com</br>
 Mr. Namit Baranwal</br>
 Email: namit_baranwal@yahoo.co.in</br>
-</p>
+</div>
+
 </div>
 
 

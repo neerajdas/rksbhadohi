@@ -1,6 +1,6 @@
 <% @title="Home " %>
 <!--slider-->
-<div class="panel">
+<div class="">
 <div id="myCarousel" class="carousel slide marketing" data-ride="carousel">
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
@@ -40,7 +40,7 @@
 <span style="margin-top: -70px; font-size:100px;"class="icon-prev"></span>
 </a>
 <a class="right carousel-control" href="#myCarousel" data-slide="next">
-<span class="icon-next"></span>
+<span style="margin-top: -70px; font-size:100px;" class="icon-next"></span>
 </a>
 </div>
 </div>
