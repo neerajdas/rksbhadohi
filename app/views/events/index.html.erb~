@@ -1,4 +1,4 @@
-<% @title="Events" %>
+<% @title="Events| Venue Map" %>
 <div class="text-center text-right" style="background-color:#3D3D3D;font-size:16px;text-align:left;font-family:helvetica, sans-serif;line-height:1;margin:1px;margin:1px; padding-left:5%;padding-top:5%;padding-right:5%;">
 <address>
 <div class="media">
@@ -20,12 +20,12 @@
 <div >
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal1-content" style="background-color:#3D3D3D;">
+    <div class="modal-content" style="background-color:#3D3D3D;">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title" id="myModalLabel"><%= @title %></h4>
       </div>
-      <div class="modal1-body">
+      <div class="modal-body">
       <object data=http://www.domotex.de/dynmaps_domotex14/map?lang=EN&amp;exhibitor=D960003 width="560" height="400" align="left|right|middle|top|bottom"> <embed src=http://www.domotex.de/dynmaps_domotex14/map?lang=EN&amp;exhibitor=D960003 width="40%" height="40%"></div> </embed> Error: Embedded data could not be displayed. </object>
       </div>
       <div class="modal-footer">
